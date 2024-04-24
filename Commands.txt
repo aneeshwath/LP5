@@ -1,0 +1,14 @@
+HPC:
+
+gcc -fopenmp program.cpp -o pr
+
+export OMP_NUM_THREADS=4
+
+./pr
+
+Python:
+python3 program.py 
+
+common:
+ls
+cd ..
